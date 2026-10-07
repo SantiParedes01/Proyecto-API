@@ -182,13 +182,6 @@ El comentario debe tener entre 2 y 500 caracteres.
 
 La API usa un `ValidationPipe` global con `whitelist`, `forbidNonWhitelisted` y `transform`: rechaza los campos que no están definidos en cada DTO y convierte los tipos automáticamente.
 
-## Documentación incluida en el repo
-
-- `.kiro/specs/ecommerce-marketplace/`: requisitos, diseño, diagrama entidad-relación, flujos principales y tareas.
-- `clase-4-pasos.md`: de un CRUD a autenticación con JWT.
-- `clase-5-pasos.md`: de la autenticación al marketplace con productos.
-- `clase-arquitectura-users-auth.md`: explicación de la arquitectura y la autenticación.
-
 ## Pendiente
 
 - Registrar el módulo de notificaciones en `AppModule`: el código existe en `src/notifications/`, pero todavía no está activo.
